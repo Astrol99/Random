@@ -1,4 +1,4 @@
-# Random
+# Decision
 
 A discord cog for Bundle Bot. It uses random numbers to decide your fate and questions
 
