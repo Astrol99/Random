@@ -6,7 +6,8 @@ class Decision:
     def __init__(self, bot):
         self.bot = bot
 
-    def answer(self, ctx):
+    @commands.command()
+    async def answer(self, ctx):
         num = random.randint(0,100)
         if num >= 50:
             msg = "Nope"
